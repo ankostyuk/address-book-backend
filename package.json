@@ -1,0 +1,18 @@
+{
+  "name": "address-book-backend",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Test for Fullstack Developer to O:LABS",
+  "author": "Andrew Kostyuk <andrew.kostyuk@gmail.com> (https://ankostyuk.github.io)",
+  "license": "MIT",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankostyuk/address-book-backend"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "scripts": {
+  }
+}
