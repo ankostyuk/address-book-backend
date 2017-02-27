@@ -1,0 +1,16 @@
+{
+  "memory": {
+    "name": "memory",
+    "connector": "memory"
+  },
+  "address-book-mongo": {
+    "name": "address-book-mongo",
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "address-book",
+    "user": "",
+    "password": "",
+    "url": ""
+  }
+}

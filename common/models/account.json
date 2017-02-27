@@ -1,0 +1,39 @@
+{
+  "name": "Account",
+  "plural": "accounts",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "caseSensitiveEmail": false
+  },
+  "properties": {
+    "realm": false,
+    "username": false,
+    "emailVerified": false,
+    "verificationToken": false,
+    "email": {
+      "type": "string",
+      "required": true,
+      "trim": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "trim": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "contacts": {
+      "type": "hasMany",
+      "model": "Contact",
+      "foreignKey": "userId",
+      "options": {
+        "disableInclude": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
