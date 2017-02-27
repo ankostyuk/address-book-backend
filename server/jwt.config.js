@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-     // 5 minute, https://github.com/zeit/ms#examples
+    // 5 minute, https://github.com/zeit/ms#examples
     ttl: '5m',
     // https://github.com/auth0/node-jsonwebtoken
     algo: 'HS256',
