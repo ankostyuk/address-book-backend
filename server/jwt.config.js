@@ -9,6 +9,6 @@ module.exports = {
     ttl: '5m',
     // https://github.com/auth0/node-jsonwebtoken
     algo: 'HS256',
-    // ! for dev only - like sample, for production - need private
+    // ! for dev only - like sample, for production - need private and strong
     secret: 'JWT_SECRET'
 };
