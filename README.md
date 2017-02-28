@@ -67,6 +67,14 @@ POST /user/signup
     "email": "string",
     "password": "***"
 }
+
+// response data
+{
+    "id": "id",
+    "name": "string",
+    "email": "string",
+    "token": "JWT"
+}
 ```
 
 ### Login User
@@ -78,6 +86,14 @@ POST /user/login
 {
     "email": "string",
     "password": "***"
+}
+
+// response data
+{
+    "id": "id",
+    "name": "string",
+    "email": "string",
+    "token": "JWT"
 }
 ```
 
