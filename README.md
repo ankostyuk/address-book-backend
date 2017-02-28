@@ -108,6 +108,9 @@ POST /user/logout
 ```
 GET /api/user
 
+// request header
+Authorization: Bearer <JWT>
+
 // response data
 {
     "id": "id",
