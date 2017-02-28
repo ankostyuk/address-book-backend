@@ -85,13 +85,6 @@ POST /user/login
 
 ```
 POST /user/logout
-
-// request body
-{
-    "name": "string",
-    "email": "string",
-    "password": "***"
-}
 ```
 
 ### Get auth User info
