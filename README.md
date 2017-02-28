@@ -101,6 +101,9 @@ POST /user/login
 
 ```
 POST /user/logout
+
+// request header
+Authorization: Bearer <JWT>
 ```
 
 ### Get auth User info
